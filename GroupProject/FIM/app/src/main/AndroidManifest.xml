@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.floorsupplystores">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="FIM"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FloorSupplyStores">
+        <activity
+            android:name="edu.qc.seclass.fim.FilterActivity"
+            android:exported="false" />
+        <activity
+            android:name="edu.qc.seclass.fim.UserFilterSearch"
+            android:exported="false" />
+        <activity
+            android:name="edu.qc.seclass.fim.UserStoreSelectActivity"
+            android:exported="false" />
+        <activity
+            android:name="edu.qc.seclass.fim.StoreSelectActivity"
+            android:exported="false" />
+        <activity
+            android:name="edu.qc.seclass.fim.DeleteProduct"
+            android:exported="false" />
+        <activity
+            android:name="edu.qc.seclass.fim.ModifyProduct"
+            android:exported="false" />
+        <activity
+            android:name="edu.qc.seclass.fim.UpdateProduct"
+            android:exported="false" />
+        <activity
+            android:name="edu.qc.seclass.fim.EmployeeProductList"
+            android:exported="false" />
+        <activity
+            android:name="edu.qc.seclass.fim.UserLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="edu.qc.seclass.fim.UserRegistrationActivity"
+            android:exported="false" />
+        <activity
+            android:name="edu.qc.seclass.fim.EmployeeLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="edu.qc.seclass.fim.ProductAddActivity"
+            android:exported="false" />
+        <activity
+            android:name="edu.qc.seclass.fim.UserAllProductList"
+            android:exported="false" />
+        <activity
+            android:name="edu.qc.seclass.fim.EmployeeOptionActivity"
+            android:exported="false" />
+        <activity
+            android:name="edu.qc.seclass.fim.EmployeeRegistrationActivity"
+            android:exported="false" />
+        <activity
+            android:name="edu.qc.seclass.fim.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

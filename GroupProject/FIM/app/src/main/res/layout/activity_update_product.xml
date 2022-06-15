@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context="edu.qc.seclass.fim.ProductAddActivity">
+
+
+    <EditText
+        android:id="@+id/productNameEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:hint="enter product name"/>
+    <EditText
+        android:id="@+id/productColorEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:hint="enter product color"/>
+    <EditText
+        android:id="@+id/productSizeEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:inputType="number"
+        android:hint="enter product size"/>
+    <EditText
+        android:id="@+id/productBrandEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:hint="enter product brand"/>
+    <EditText
+        android:id="@+id/productTypeEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:hint="enter floor type"/>
+    <EditText
+        android:id="@+id/productPriceEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_marginBottom="5dp"
+        android:hint="enter product price"/>
+    <EditText
+        android:id="@+id/productCategoryEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:hint="enter floor category"/>
+    <EditText
+        android:id="@+id/floorSpecisEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:hint="enter floor specis"/>
+
+    <Button
+        android:id="@+id/productUpdateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Product Update"/>
+
+</LinearLayout>

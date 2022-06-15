@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/productIdEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:hint="enter product id"/>
+    <TextView
+        android:id="@+id/productNameEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:hint="enter product name"/>
+    <TextView
+        android:id="@+id/productCategoryEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="5dp"
+        android:hint="enter product category"/>
+    <TextView
+        android:id="@+id/productColorEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:hint="enter product color"/>
+    <TextView
+        android:id="@+id/productSizeEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:hint="enter product size"/>
+    <TextView
+        android:id="@+id/productBrandEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:hint="enter product brand"/>
+    <TextView
+        android:id="@+id/productTypeEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:hint="enter product type"/>
+    <TextView
+        android:id="@+id/productPriceEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="5dp"
+        android:hint="enter product price"/>
+
+    <TextView
+        android:id="@+id/speiciesEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:hint="enter specifies type"/>
+    <TextView
+        android:id="@+id/storeNameEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:hint="enter storename type"/>
+
+
+</LinearLayout>
